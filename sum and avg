@@ -1,0 +1,7 @@
+a=int(input("enter a value::")) //a=4
+b=int(input("enter b value::")) //b=5
+c=int(input("enter c value::")) //c=6
+total=(a+b+c)
+print("sum is::",total) //15
+avg=total/3
+print("average is::",avg) //5.0
