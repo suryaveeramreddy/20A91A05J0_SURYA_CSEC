@@ -1,28 +1,17 @@
 amount=int(input("enter amount::"))
 if(amount in range(1,1001)):
-    print("discount::",0)
-    print("amount to be paid::",amount-0)
-   
+   discount=0
 elif(amount in range(1001,2001)):
     discount=int(amount*(0.1))
-    print("discount::",discount)
-    print("amount to be paid::",int(amount-discount))
-
 elif(amount in range(2001,3001)):
     discount=int(amount*(0.2))
-    print("discount::",discount)
-    print("amount to be paid::",int(amount-discount))
-
 elif(amount in range(3001,5001)):
     discount=int(amount*(0.3))
-    print("discount::",discount)
-    print("amount to be paid::",int(amount-discount))
-
 elif(amount>5000):
-    
     discount=int(amount*(0.4))
-    print("discount::",discount)
-    print("amount to be paid::",int(amount-discount))
+
+print("discount::",discount)
+print("amount to be paid::",int(amount-discount))
 
 '''output::::
 enter amount::1200
