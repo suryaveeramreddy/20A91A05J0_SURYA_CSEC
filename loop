@@ -1,10 +1,10 @@
 s=int(input("enter starting value::"))
 e=int(input("enter ending value::"))
 step=int(input("enter step value::"))
-i=s
-while i<=e:
-    print(i,end=",")
-    i+=step
+
+while s<=e:
+    print(s,end=",")
+    s+=step
       
 '''output::::
 enter starting value::5
