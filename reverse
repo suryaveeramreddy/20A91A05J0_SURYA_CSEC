@@ -1,0 +1,13 @@
+original=int(input("enter number::"))
+reverse=0
+while(original!=0):
+    rem=original%10
+    reverse=reverse*10+rem
+    original=original//10
+print(reverse)
+
+'''output::::
+enter number::987654321
+123456789
+enter number::123456789
+987654321'''
