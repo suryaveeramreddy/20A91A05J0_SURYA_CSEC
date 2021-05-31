@@ -1,0 +1,21 @@
+n=int(input("enter number::"))
+i=1
+print("factors of %d are::" %n)
+while(i<=n):
+    if(n%i==0):
+        print(i,end=' ')
+    i+=1
+
+'''output::::
+enter number::8
+factors of 8 are::
+1 2 4 8 
+enter number::79
+factors of 79 are::
+1 79 
+enter number::20
+factors of 20 are::
+1 2 4 5 10 20 
+enter number::100
+factors of 100 are::
+1 2 4 5 10 20 25 50 100 '''
