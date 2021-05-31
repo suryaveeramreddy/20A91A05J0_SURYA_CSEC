@@ -1,0 +1,17 @@
+n=int(input("enter number::"))
+c=0
+i=1
+while(i<=n):
+    if(n%i==0):
+        c+=1
+    i+=1
+if(c==2):
+    print("given number is prime")
+else:
+    print("given number is not a prime number")
+
+'''output::::
+enter number::97
+given number is prime
+enter number::50
+given number is not a prime number'''
