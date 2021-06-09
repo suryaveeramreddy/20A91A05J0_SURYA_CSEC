@@ -1,0 +1,13 @@
+a=float(input('enter first number::::'))
+b=float(input('enter second number::::'))
+c=float(input('enter third number::::'))
+total=a+b+c
+avg=total/3
+print(" total=%.2f and average=%.2f" %(total,avg))
+
+'''output::::
+enter first number::::2
+enter second number::::3
+enter third number::::5
+ total=10.00 and average=3.33'''
+
